@@ -2,24 +2,7 @@
 
 ## Overview
 
-This project is a machine learning model that recognizes digits from images. It uses the MNIST dataset, which is a large database of handwritten digits that is commonly used for training various image processing systems. The model is built using PyTorch, a popular deep learning library.
-
-## Features
-
-- Utilizes the MNIST dataset for training and testing.
-- Implements a Convolutional Neural Network (CNN) for image recognition.
-- Provides training and testing data loaders.
-- Includes a model training process with output logging.
-- Evaluates the model on test data and reports accuracy.
-
-## Requirements
-
-To run this project, you will need:
-
-- Python 3.6 or higher
-- PyTorch
-- torchvision
-- matplotlib (for displaying images)
+Machine learning project which used PyTorch library for training convolutional neural network (CNN) and matplotlib for visualization. 
 
 ## Quick Start
 
@@ -28,44 +11,29 @@ To quickly clone and run this project, follow these steps:
 1. **Clone the Repository**
 
     ```bash
-    git clone <your-repository-url>
-    cd <repository-name>
+    git clone https://github.com/Dev-C-Pascal/TensorFlow-Digit-Recognition.git
     ```
 
-2. **Create a Virtual Environment (Optional)**
-
-    It's a good practice to create a virtual environment for Python projects. This step is optional but recommended.
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3. **Install Dependencies**
+2. **Necessary Libraries**
 
     Install the required Python packages using pip:
 
     ```bash
-    pip install torch torchvision matplotlib
+    pip3 install torch torchvision matplotlib
     ```
+3. **In Jupiter Ntebook**
 
-4. **Run the Application**
+<img width="955" alt="image" src="https://github.com/Dev-C-Pascal/TensorFlow-Digit-Recognition/assets/80202137/ae9f2d7c-0751-4b50-8c37-fb9a351f72f3">
 
-    Start the training and evaluation process by running the main script:
+be sure to tick this box at the top of the screen 
 
-    ```bash
-    python <your-script-name>.py
-    ```
+4. **Run every part of the code one by one**
 
-    This will begin the training process, and after training, the model's accuracy on the test set will be displayed. The script also demonstrates a prediction for a digit image from the test dataset.
+5. **Congratulations**
+<img width="1192" alt="image" src="https://github.com/Dev-C-Pascal/TensorFlow-Digit-Recognition/assets/80202137/5a129619-22f2-4fa7-a22c-f026033f02a2">
+Now you can change the number in the brackets in range 0 to 9999, and get prediction and see the number on the image
 
-## Project Structure
 
-- `train_data` & `test_data`: DataLoaders for training and testing sets.
-- `CNN`: The CNN model definition.
-- `train`: Function to train the model.
-- `test`: Function to evaluate the model's accuracy on the test dataset.
-- Visualization of prediction results.
 
 
 ## License
