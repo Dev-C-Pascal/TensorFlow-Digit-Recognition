@@ -21,7 +21,7 @@ To quickly clone and run this project, follow these steps:
     ```bash
     pip3 install torch torchvision matplotlib
     ```
-3. **In Jupiter Ntebook**
+3. **In Jupiter Notebook**
 
 <img width="955" alt="image" src="https://github.com/Dev-C-Pascal/TensorFlow-Digit-Recognition/assets/80202137/ae9f2d7c-0751-4b50-8c37-fb9a351f72f3">
 
