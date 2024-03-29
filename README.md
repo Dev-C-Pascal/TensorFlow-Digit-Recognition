@@ -30,7 +30,7 @@ be sure to tick this box at the top of the screen
 4. **Run every part of the code one by one**
 
 5. **Congratulations**
-<img width="1065" alt="image" src="https://github.com/Dev-C-Pascal/TensorFlow-Digit-Recognition/assets/80202137/6d3e1cfc-6b53-4fe9-a038-d2734de5d8dd">
+<img width="1067" alt="image" src="https://github.com/Dev-C-Pascal/TensorFlow-Digit-Recognition/assets/80202137/1584b7dd-0317-415d-b5dc-9e86c732d567">
 Now you can change the number in the brackets in range 0 to 9999, and get prediction and see the number on the image
 
 
